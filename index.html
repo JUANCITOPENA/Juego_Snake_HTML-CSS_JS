@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <div class="game-info">
+        <p>Vidas: <span id="lives">3</span></p>
+        <p>Objetos: <span id="objects">0</span></p>
+        <p>Tiempo: <span id="time">45</span></p>
+        <p>Nivel: <span id="level">1</span></p>
+    </div>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+
+    <!-- Modal -->
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2 id="modalTitle">Game Over</h2>
+            <img src="image/game_over.gif" alt="Game Over" class="modal-image">
+            <p id="modalMessage">Your score was <span id="score"></span></p>
+            <button id="continueButton">Continue</button>
+            <button id="exitButton">Exit</button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="winModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeWinModal">&times;</span>
+            <h2 id="winModalTitle">Has Ganado</h2>
+            <img src="image/win.gif" alt="Has Ganado" class="modal-image">
+            <button id="winContinueButton">Continue</button>
+            <button id="winExitButton">Exit</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
