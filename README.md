@@ -47,7 +47,7 @@ Este proyecto consiste en un juego de la serpiente implementado con HTML, CSS y 
 
 1. Clona el repositorio:
     ```sh
-    git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+    git clone: https://github.com/JUANCITOPENA/Juego_Snake_HTML-CSS_JS.git
     ```
 2. Navega a la carpeta del proyecto:
     ```sh
