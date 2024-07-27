@@ -55,6 +55,11 @@ Este proyecto consiste en un juego de la serpiente implementado con HTML, CSS y 
     ```
 3. Abre `index.html` en tu navegador web para comenzar a jugar.
 
+## Juego Ganado y Pedido:
+
+![](image/juego2.png)
+![](image/juego3.png)
+
 ## Contribuciones
 
 Si deseas contribuir a este proyecto, por favor sigue estos pasos:
