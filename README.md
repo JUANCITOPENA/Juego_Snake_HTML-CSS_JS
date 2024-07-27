@@ -6,6 +6,9 @@
 
 Este proyecto consiste en un juego de la serpiente implementado con HTML, CSS y JavaScript. El juego incluye características como niveles, un temporizador, y dos tipos de modales: uno para el final del juego y otro para ganar. 
 
+## Portada:
+![](image/juego1.png)
+
 ## Contenidos
 
 - `index.html`: Estructura HTML del juego, que incluye el área del juego y modales.
